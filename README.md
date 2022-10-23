@@ -1,6 +1,6 @@
 # MOOVEES-APP-ClientOnly-TypeScript
 
-[Live App Here](https://moovees-app.herokuapp.com/)
+[Live App Here](https://moovees-app-typescript-client.netlify.app/)
 
 ![Img of live app home](moovee.png)
 
