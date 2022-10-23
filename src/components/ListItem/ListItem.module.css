@@ -1,0 +1,58 @@
+.li {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 0.25em;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 11%;
+  gap: 2%;
+  width: 100%;
+}
+
+.pTitle {
+  font-size: 1.7em;
+  text-align: center;
+  color: #f7f7f7d4;
+}
+.pYear {
+  font-size: 1.3em;
+  text-align: center;
+  color: #f7f7f7d4;
+}
+.btn {
+  height: 49%;
+  width: 100%;
+  border: transparent;
+  background-color: #f7f7f71f;
+  color: #f7f7f7;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(28, 167, 183);
+  transition: 0.2s;
+}
+img {
+  height: 74%;
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  aspect-ratio: 0.75;
+}
+.stars {
+  text-align: center;
+  font-size: 2em;
+}
+@media (max-width: 798px) {
+  .pTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
